@@ -22,12 +22,15 @@
 </head>
 <body>
   <h1>プライバシーポリシー</h1>
-  <p>アプリ名：一等学科試験対策（および 二等学科試験対策）<br>
+  <p>アプリ名：一等学科試験対策<br>
   開発者：KawaApp Studio<br>
-  最終更新：2026年5月8日</p>
+  最終更新：2026年5月17日</p>
 
   <h2>収集する情報</h2>
-  <p>本アプリは、ユーザーの氏名・メールアドレス・位置情報・連絡先などの個人情報を取得しません。学習履歴・スコア・ブックマーク等は端末内（SharedPreferences）にのみ保存されます。</p>
+  <p>本アプリは、ユーザーの氏名・メールアドレス・位置情報・連絡先などの個人情報を取得しません。学習履歴・スコア・ブックマーク等は、まず端末内（SharedPreferences）に保存されます。</p>
+
+  <h2>iCloud Key-Value Store（KVS）による端末間同期</h2>
+  <p>iOS版では、Apple ID で iCloud にサインインし設定でiCloud同期を有効にしている場合、学習進捗・ブックマークが iCloud Key-Value Store を通じて同一 Apple ID の他端末と同期されます。同期データは Apple のサーバー（iCloud）に保存され、本アプリ独自のサーバーへは送信されません。アプリ内の設定画面から iCloud 同期のON/OFFを切り替えることができます。</p>
 
   <h2>App内課金（買い切り）と外部サービス</h2>
   <p>本アプリは買い切り型のApp内課金を提供します。購入処理および購入状態の確認のため、以下の通信が発生します。</p>
@@ -41,7 +44,7 @@
   <p>本アプリは広告・アクセス解析・第三者のソーシャルログインを使用していません。</p>
 
   <h2>データの保存</h2>
-  <p>学習履歴・スコア等のデータは端末内にのみ保存されます。本アプリ独自のサーバーへの送信は行いません。購入情報の管理のみ上記の RevenueCat / App Store 経由で行われます。</p>
+  <p>学習履歴・スコア等のデータは端末内に保存されます。iCloud同期を有効にしている場合は、Apple の iCloud Key-Value Store を通じて同一 Apple ID の端末間で同期されます。本アプリ独自のサーバーへの送信は行いません。購入情報の管理は上記の RevenueCat / App Store 経由で行われます。</p>
 
   <h2>お子様のプライバシー</h2>
   <p>本アプリは13歳未満のお子様から意図的に情報を収集しません。</p>
@@ -53,6 +56,6 @@
   <p>asonedaywillberefreshing@gmail.com</p>
 
   <h2>Privacy Policy (English)</h2>
-  <p>This app does not collect personal information. Study progress and bookmarks are stored only on your device. The app uses Apple App Store (StoreKit) and RevenueCat to process one-time in-app purchases and to verify purchase status; only an anonymous App Store identifier is exchanged. No advertising, analytics, or social login SDKs are used.</p>
+  <p>This app does not collect personal information. Study progress and bookmarks are stored on your device, and on iOS they are synced across devices signed in to the same Apple ID via Apple's iCloud Key-Value Store when iCloud sync is enabled in the app settings. The app uses Apple App Store (StoreKit) and RevenueCat to process one-time in-app purchases and to verify purchase status; only an anonymous App Store identifier is exchanged. No advertising, analytics, or social login SDKs are used.</p>
 </body>
 </html>
